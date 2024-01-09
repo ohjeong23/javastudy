@@ -273,6 +273,7 @@ public static void method7() {
     * row=3, star=1~3
     * row=4, star=1~2
     * row=5, star=1~1
+    * row = 1~5 star 1~6-row
     */
    
   for(int i =1; i <=5; i++) {
@@ -353,7 +354,7 @@ public static void method7() {
  
  public static void method16() {
    
-   
+   for(i=1;i<=6;i)
    
  }
 
