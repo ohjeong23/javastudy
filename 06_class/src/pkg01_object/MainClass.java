@@ -9,7 +9,7 @@ public class MainClass {
     //객체 선언
     Calculator calculator;
     
-    //객체 생성
+    //객체 생성//인스턴스가 
     calculator = new Calculator();
  
     //객체를 이용해서 클래스의 멤버(필드,메소드)를 사용할 수 있다.
@@ -21,7 +21,6 @@ public class MainClass {
     calculator.method();
     //클래스가 다르면 해당 클래스 타입의 객체를 만들고 사용
     
-    
-  }
+
   
 }
