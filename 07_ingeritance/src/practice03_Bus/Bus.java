@@ -1,25 +1,25 @@
 package practice03_Bus;
 
 public class Bus {
-  
+
+  // field
   private Seat[] seats;
   private int numOfPerson;
- 
   
-  public Bus(int seatCount) {
-    
-
+  // constructor
+  public Bus() {
     seats = new Seat[25];
-    for(int i=0; i <seats.length;i++) {
+    for(int i = 0; i < seats.length; i++) {
       seats[i] = new Seat();
     }
-    
-    
-    }
-  //버스타기(앞 자리부터 채우는 방식으로 앉기)
+  }
+  
+  // method
+  
+  // 버스 타기(앞 자리부터 채우는 방식으로 앉기)
   public void on(Person person) {
     if(numOfPerson >= seats.length) {
-      System.out.println("만석입니다.");
+      System.out.println("만석입니다. 버스에 탈 수 없습니다.");
       return;
     }
     for(int i = 0; i < seats.length; i++) {
