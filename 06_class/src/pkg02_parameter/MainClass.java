@@ -3,10 +3,10 @@ package pkg02_parameter;
 
 public class MainClass {
 
-  public static void main(String[] args) {
+  public static void main(String[] args) {// 패키지 이름 생략 java.lang.String[] args
     
     //객체 선언 및 생성
-    Calculator calculator = new Calculator();
+    pkg02_parameter.Calculator calculator = new Calculator();// 동일한 패키지에 있기에 패키지 안씀
     
     //메소드 호출
     calculator.method1();
