@@ -1,8 +1,8 @@
 package pkg01_extends;
 
 
-// class 자식 extends 부모{ }   슈퍼 = 부모, 서브 = 자식 
-// class 서브 extends 슈퍼{ }
+// class 자식 extends 부모{ }   슈퍼 = 부모, 서브 = 자식 //거의 큰쪽이 부모 
+// class 서브 extends 슈퍼{ }   
 
 public class Ev extends Car{
   

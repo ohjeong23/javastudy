@@ -39,6 +39,8 @@ public class MainClass {
       {1, 1, 5, 3},
       {4, 2, 2, 1}
     };
+    System.out.println(apt.length);
+    
     
     for(int i = 0; i < apt.length; i++) {
       int total = 0;
@@ -49,6 +51,10 @@ public class MainClass {
     }
     
   }
+  
+  
+  
+  
   
   public static void method3() {
     
@@ -112,7 +118,7 @@ public class MainClass {
   }
   
   public static void main(String[] args) {
-    method3();
+    method2();
   }
 
 }

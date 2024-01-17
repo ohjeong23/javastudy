@@ -29,6 +29,11 @@ public class Student extends Person {
     this.school = school;
   }
   
+  
+  
+  
+  
+  
   // method
   public String getSchool() {
     return school;

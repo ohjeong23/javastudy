@@ -87,7 +87,7 @@ public class BankAccount {
     //account.deposit(a);//내 통장에서 빼진 만큼 너 통장에 넣음
     
     account.deposit(withdrawal(money));
-    
+ 
     
     
     

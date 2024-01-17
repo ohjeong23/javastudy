@@ -20,14 +20,15 @@ public class MainClass {
     ///////
     
     //입금 출금 void
-    account1.deposit(100000);//10만원 입금(성공)
-    account1.deposit(-50000);//-5만원 입금(실패)
+    account1.deposit(200000);//10만원 입금(성공)
+    account2.deposit(200000);//-5만원 입금(실패)
     
     
-    long money; // 
-    money = account1.withdrawal(100000); //10만원 출금(성공)
+    long money; //
+    
+    money = account1.withdrawal(10000); //10만원 출금(성공)
     System.out.println(money);//출금된 금액 출력
-    money = account1.withdrawal(200000); // 20만원 출금 (실패)
+    money = account1.withdrawal(20000); // 20만원 출금 (실패)
     System.out.println(money); //0 (출금된 금액 출력 )
     
     
@@ -35,7 +36,7 @@ public class MainClass {
     
     //이체 
     account1.transfer(account2,50000); // account1 -> account2, 5000원 이체 (성공)
-    account1.transfer(account2,100000); // account1 -> account2, 100000원 이체 (실패)
+    account2.transfer(account1,100000); // account1 -> account2, 100000원 이체 (실패)
     
   }
 

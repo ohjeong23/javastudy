@@ -45,7 +45,7 @@ public class Class02_switch {
      *    
      */
     //요청
-    int req =5;
+    int req = 5;
     switch(req) {
     case 1:
       list(); 

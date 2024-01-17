@@ -5,7 +5,7 @@ public class Gun {
    
   public final static int MAX_BULLET = 20;
   private int bullet;
-  
+
   
   public Gun() {
   

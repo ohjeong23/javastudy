@@ -17,7 +17,7 @@ public class MainClass {
     
     try {
       
-      int score = 1000; // 0~100
+      int score = 180; // 0~100
       char grade;
       
       

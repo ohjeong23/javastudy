@@ -91,7 +91,7 @@ public static void method4() {
 
 public static void main(String[] args) {
   
-    method4();
+    method3();
     
 
   }
