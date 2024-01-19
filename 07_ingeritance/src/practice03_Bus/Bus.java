@@ -3,7 +3,7 @@ package practice03_Bus;
 public class Bus {
 
   // field
-  private Seat[] seats;
+  private Seat[] seats; //Array List  
   private int numOfPerson;
   
   // constructor

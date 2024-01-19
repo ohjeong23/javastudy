@@ -5,8 +5,7 @@ public class MainClass {
   public static void main(String[] args) {
     
     // Object 타입의 Book 객체
-    Object obj = new Book("979-11-6224-187-5", "혼자 공부하는 자바");
-    
+    Object obj = new Book() ;
     // Object 타입의 Book 객체를 Book 타입으로 캐스팅한 뒤 메소드 호출하기
     System.out.println( ((Book) obj).getIsbn() );
     System.out.println( ((Book) obj).getTitle() );

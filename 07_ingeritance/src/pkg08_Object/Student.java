@@ -65,9 +65,14 @@ public class Student {
      return;
    }
    
+   
    System.arraycopy(books, idx + 1, books, idx, bookCount - idx - 1);
    bookCount--;
    books[bookCount] = null;
+   
+  
+   
+   
    
  }
  
@@ -89,6 +94,9 @@ public class Student {
    }
    
  }
+
+ 
+ 
  
  /*
   * Object 클래스의 equals() 메소드 오버라이드
