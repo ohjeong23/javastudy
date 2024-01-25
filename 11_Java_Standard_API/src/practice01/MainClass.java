@@ -93,8 +93,7 @@ public class MainClass {
       if(capital.trim().equals(entry.getValue())){
        count ++;
       }
-      
-      
+               
     }
     System.out.println(count + "개 정답 성공");
     sc.close();

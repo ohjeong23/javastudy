@@ -83,10 +83,11 @@ public class MainClass {
       } catch (Exception e) {
         e.printStackTrace();
 }
-      
+     
     }
   
   }
+  
   
   
   public static void method3() {
@@ -121,6 +122,7 @@ public class MainClass {
       String lastModified = new SimpleDateFormat("yyyy-MM-dd a h:mm").format(file.lastModified());
       builder.append(String.format("%-20s", lastModified));
       
+      
       // 유형
       builder.append(String.format("%-10s", file.isDirectory() ? "파일 폴더" : "파일"));
       
@@ -134,7 +136,7 @@ public class MainClass {
       System.out.println(builder.toString());
       
     }
-    
+   
   }
   
   public static void method4() {
@@ -224,7 +226,7 @@ public static void method5() {
   public static void main(String[] args) {
 
     
-    method3();
+    practice1();
     
   }
 

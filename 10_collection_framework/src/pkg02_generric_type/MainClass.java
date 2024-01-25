@@ -15,10 +15,7 @@ public class MainClass {
     container2.setItem("hello");
     System.out.println();container2.getItem();
     
-    
-    
-    
-    
+                         
     
     
   }
