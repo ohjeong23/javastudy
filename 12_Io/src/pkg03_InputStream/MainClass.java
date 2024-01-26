@@ -176,7 +176,7 @@ public class MainClass {
     File file = new File(dir, "sample4.dat");
     
     // 데이터 입력 스트림 선언
-    DataInputStream in = null;` 
+    DataInputStream in = null; 
     
     try {
       
