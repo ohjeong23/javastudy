@@ -22,10 +22,32 @@ public class MainClass {
     //파라 x
     Supplier<String>supplier = () -> "hello world";
     System.out.println(supplier.get());
+    
+    
+    
+    
+    
   }
+  
+  
+  
+  
+  
+  
   public static void method2(Supplier<String> supplier) {
     System.out.println(supplier.get());
+    
+    
+    
+  
+    
+    
+    
   }
+ 
+  
+  
+  
   
   //호출할때마다 1~10 사이 난수를 출력하는 method3
   public static void method3(Supplier<Integer> supplier) {
@@ -41,10 +63,13 @@ public class MainClass {
   
   //method1();
     
-  //Supplier<String> supplier = ()-> "hello world";
-  //method2(supplier);
-  //같은 코드이다. method2(()->"hello world");
-  
+  Supplier<String> supplier = ()-> "hello world";
+  method2(supplier);
+  //같은 코드이다.
+  method2(()->"hello world");
+
+ 
+
     method3(() -> (int)(Math.random() *10+1));
     
   }

@@ -20,14 +20,15 @@ public class MainClass {
     Function<String, String> function = (name) -> name + "님";
      System.out.println(function.apply("tom"));
     
+     
+    
     
   }
   
   public static void method2(Function<String, String> function) {
     
     System.out.println(function.apply("tom"));
-    
-    
+  
     
   }
  
@@ -36,6 +37,7 @@ public class MainClass {
     
     method1();
     method2((name)-> name + "님");
+   
     
     
     

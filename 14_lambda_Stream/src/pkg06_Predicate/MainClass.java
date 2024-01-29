@@ -23,9 +23,18 @@ public class MainClass {
     } else {
       System.out.println("홀수");
     }
+   
+    
+    
+    
+    
     
   }
 
+  
+  
+  
+  
   public static void method2(Predicate<Integer> predicate, int number) {
     if(predicate.test(number)) {
       System.out.println("짝수");
@@ -34,9 +43,20 @@ public class MainClass {
     }
   }
   
+  
+  public static void method3(Predicate<Integer> predicate, int number) {
+    if(predicate.test(number)) {
+      System.out.println();
+    }
+    
+  }
+  
+  
+  
   public static void main(String[] args) {
     method1();
     method2((number) -> number % 2 == 0, 5);
+    method3((number) -> number%2 == 0,6);
   }
 
 }
